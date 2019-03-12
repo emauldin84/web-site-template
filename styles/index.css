@@ -6,5 +6,18 @@ html {
     box-sizing: inherit;
   }
 
+  html, body {
+    height: 100%;
+    width: 100%;
+}
 
-  
+.container {
+  border: 1px solid black;
+  height: 80%;
+  display: flex;
+}
+
+.column {
+  border: 1px solid lightslategray;
+  flex: 50%;
+}
