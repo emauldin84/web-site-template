@@ -17,6 +17,22 @@ html {
   display: flex;
 }
 
+.alpha-container {
+  height: 5%;
+  background-color: lightgrey;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  text-align: center;
+  font-size: 20px;
+  font-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .column {
   border: 1px solid lightslategray;
   flex: 50%;
